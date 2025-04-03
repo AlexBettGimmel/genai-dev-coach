@@ -15,14 +15,11 @@ rich = "^13.5.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
+ruff = "^0.3.4"  # You can check for latest
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.0.0"
-ruff = "^0.3.4"  # You can check for latest
 
 [tool.ruff]
 line-length = 100
